@@ -1,6 +1,6 @@
 {
-    "name": "magento/product-community-edition",
-    "description": "eCommerce Platform for Growth (Community Edition)",
+    "name": "bibumathew/product-community-edition",
+    "description": "Bibu Mathew Community Edition",
     "type": "magento2-component",
     "version": "0.1.0-alpha99",
     "require": {
