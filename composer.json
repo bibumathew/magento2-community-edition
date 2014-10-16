@@ -3,6 +3,16 @@
     "description": "Bibu Mathew Community Edition",
     "type": "magento2-component",
     "version": "0.1.0-alpha99",
+    "repositories": [
+		  {
+            "type": "composer",
+            "url": "http://packages.magento.com/"
+        },
+		 {
+            "type": "vcs",
+            "url": "https://github.com/bibumathew/magento-composer-installer.git"
+        }
+    ],
     "require": {
         "php": "~5.4.11|~5.5.0",
         "zendframework/zend-stdlib": "2.0.3",
@@ -577,8 +587,12 @@
                 "setup",
                 "setup"
             ]
-        ]
+        ],
+        "magento-root-dir": "./",
+        "magento-deploystrategy": "copy"
     },
+    ,
+    "minimum-stability": "dev",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
