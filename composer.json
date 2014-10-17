@@ -591,7 +591,6 @@
         "magento-root-dir": "./",
         "magento-deploystrategy": "copy"
     },
-    ,
     "minimum-stability": "dev",
     "license": [
         "OSL-3.0",
