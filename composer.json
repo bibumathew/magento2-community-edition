@@ -584,11 +584,8 @@
                 "setup",
                 "setup"
             ]
-        ],
-        "magento-root-dir": "./",
-        "magento-deploystrategy": "copy"
+        ]
     },
-    "minimum-stability": "dev",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
